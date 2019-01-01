@@ -21,5 +21,5 @@ $ cd toolsederhana2
 $ python2 sederhana.py
 
 eitts tapi tunggu sebelum agan menggunakan tools ini agan perlu memasukan password dan username inidiah pw dan usr
-# password : KANG
-# username : NEWBIE
+# username : KANG
+# password : NEWBIE
