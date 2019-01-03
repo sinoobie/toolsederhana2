@@ -53,7 +53,10 @@ def menu():
 		print "39. Install Facebook Video Downloader"
 		print "40. Install Tools Th3inspector"
 		print "41. Install IP-Tracer"
-		print "42. "
+		print "42. Install KaliNethunter"
+		print "43. Install Termux Alpine"
+		print "44. Install Smsid (sms gratis no pulsa)"
+		print "45. "
 		print "100. About"
 		print "0. KELUAR"
 
@@ -688,6 +691,31 @@ def ip_tracer():
 	print "cara menggunakannya cari aja digoogle gan hehe"
 	print
 
+def nethunter():
+	system('git clone https://github.com/Hax4us/Nethunter-In-Termux')
+	system('cd Nethunter-In-Termux')
+	system('chmod +x kalinethunter')
+	system('./kalinethunter')
+	system('cd ..')
+	system('mv Nethunter-In-Termux $HOME')
+	print "\033[92mSudah di install gan silahkan lihat di cd $HOME"
+	print "cara menggunakannya cari aja digoogle gan hehe"
+	print
+
+def alpine():
+	system('apt -y upgrade && apt -y install curl proot')
+	system('curl -LO https://raw.githubusercontent.com/Hax4us/TermuxAlpine/master/TermuxAlpine.sh')
+	system('bash TermuxAlpine.sh')
+	system('startalpine.')
+
+def smsid():
+	system('git clone https://github.com/amsitlab/smsid-java')
+	system('mv smsid-java $HOME')
+	print
+	print "selanjutnya buka new seassion lalu agan ketik:\n$ cd smsid-java\n$ chmod +x install\n$ ./install"
+	print "cara menjalankannya \nsmsid send 085xxxxx (Untuk mengirim single pesan)\nsmsid boom 085xxxx (Untuk mengirim pesan sebanyak 2x atau lebih)"
+	print
+
 def tes():
 	print
 	print("\nUdah ya gan segitu dulu soalnya ane udah bingung apa lagi yang mau ditambahin hehe.\nlagian kalo kebanyakan pun nanti jadi bingung juga mau install yang mana eakan? hehehe, \nkalo agan mau ngembagin lagi ya silahkan saja gan aku ikhlas kok:')\nSampai Jumpa di project berikutnya gan:*"*10)
@@ -796,13 +824,19 @@ while (pilihan != 't'):
 			liteotp()
 	elif pilih == 38:
 			xattack()
-	elif pilih == 39
+	elif pilih == 39:
 			fbvideo_down()
 	elif pilih == 40:
 			the_inspect()
 	elif pilih == 41:
 			ip_tracer()
 	elif pilih == 42:
+			nethunter()
+	elif pilih == 43:
+			alpine()
+	elif pilih == 44:
+			smsid()
+	elif pilih == 45:
 			tes()
 	elif pilih == 100:
 			tentang()
