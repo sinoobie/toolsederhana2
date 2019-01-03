@@ -2,7 +2,7 @@
 Whats New?<br>
 -Removed username & password<br>
 -Added 25 News Tools (installer hehehe)<br>
-Udahlah, udah kayak Google PS gua langsung aja clone Tools sedethana ini!!!
+Udahlah, udah kayak Google PS gua langsung aja clone Tools sederhana ini!!!
 
 # toolsederhana2
 Toolsederhana 2 ini adalah tools generasi berikutnya dari toolsederhana yaiyalah-_
