@@ -55,8 +55,9 @@ def menu():
 		print "41. Install IP-Tracer"
 		print "42. Install KaliNethunter"
 		print "43. Install Termux Alpine"
-		print "44. Install Smsid (sms no pulsa)"
-		print "45. "
+		print "44. Install Smsid"
+		print "45. Install Instagram Downloader"
+		print "46. "
 		print "100. About"
 		print "0. KELUAR"
 
@@ -716,6 +717,18 @@ def smsid():
 	print "cara menjalankannya \nsmsid send 085xxxxx (Untuk mengirim single pesan)\nsmsid boom 085xxxx (Untuk mengirim pesan sebanyak 2x atau lebih)"
 	print
 
+def downig():
+	system('pkg install curl')
+	system('pkg install grep')
+	system('pkg install jq')
+	system('git clone  https://github.com/Hax28dh8Sec/igdwnlod')
+	system('mv igdwnlod $HOME')
+	print "\033[92mSudah di install gan silahkan lihat di cd $HOME"
+	print "cara menggunakannya cari aja digoogle gan hehe"
+	print
+
+def update():
+	system('git clone https://github.com/KANG-NEWBIE/toolsederhana2')
 def tes():
 	print
 	print("\nUdah ya gan segitu dulu soalnya ane udah bingung apa lagi yang mau ditambahin hehe.\nlagian kalo kebanyakan pun nanti jadi bingung juga mau install yang mana eakan? hehehe, \nkalo agan mau ngembagin lagi ya silahkan saja gan aku ikhlas kok:')\nSampai Jumpa di project berikutnya gan:*"*10)
@@ -837,7 +850,11 @@ while (pilihan != 't'):
 	elif pilih == 44:
 			smsid()
 	elif pilih == 45:
+			downig()
+	elif pilih == 46:
 			tes()
+	elif pilih == 99:
+			update()
 	elif pilih == 100:
 			tentang()
 	elif pilih == 0:
