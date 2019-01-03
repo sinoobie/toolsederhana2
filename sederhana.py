@@ -689,7 +689,7 @@ def liteotp():
 	print
 
 def xattack():
-	system('apt get install perl')
+	system('apt install perl')
 	system('git clone https://github.com/Moham3dRiahi/XAttacker/')
 	system('cpan install Log::Log4perl')
 	system('cpan install HTTP :: Request')
@@ -709,10 +709,6 @@ def fbvideo_down():
 
 def the_inspect():
 	system('apt install perl make openssl git')
-	system('cpan')
-	system('fforce install HTTP::Request')
-	system('fforce install LWP::UserAgent')
-	system('fforce install JSON')
 	system('git clone https://github.com/Moham3dRiahi/Th3inspector')
 	system('mv Th3inspector $HOME')
 	print "\033[92mSudah di install gan silahkan lihat di cd $HOME"
@@ -722,9 +718,6 @@ def the_inspect():
 def ip_tracer():
 	system('git clone https://github.com/Rajkumrdusad/IP-Tracer.git')
 	system('cd IP-Tracer')
-	system('chmod +x install')
-	system('./install')
-	system('cd ..')
 	system('mv IP-Tracer $HOME')
 	print "\033[92mSudah di install gan silahkan lihat di cd $HOME"
 	print "cara menggunakannya cari aja digoogle gan hehe"
@@ -732,7 +725,7 @@ def ip_tracer():
 
 def tes():
 	print
-	print("Udah ya gan segitu dulu soalnya ane udah bingung apa lagi yang mau ditambahin hehe, \nlagian kalo kebanyakan pun nanti jadi bingung juga mau install yang mana eakan? hehehe, \nkalo agan mau ngembagin lagi ya silahkan saja gan:') aku ikhlas kok, \nSampai Jumpa di project berikutnya gan:*"*10)
+	print("\nUdah ya gan segitu dulu soalnya ane udah bingung apa lagi yang mau ditambahin hehe.\nlagian kalo kebanyakan pun nanti jadi bingung juga mau install yang mana eakan? hehehe, \nkalo agan mau ngembagin lagi ya silahkan saja gan aku ikhlas kok:')\nSampai Jumpa di project berikutnya gan:*"*10)
 	print
 
 def tentang():
