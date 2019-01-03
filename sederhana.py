@@ -47,17 +47,13 @@ def menu():
 		print "33. Install SYTD"
 		print "34. Install Xerxes"
 		print "35. Install Torshammer"
-		print "36. Install Bot Fb BangDjon"
-		print "37. Install FB Brute Force"
-		print "38. Install BoomKomen"
-		print "39. Install BotKomena"
-		print "40. Install Mail-Generator"
-		print "41. Install LiteOTP"
-		print "42. Install XAttacker"
-		print "43. Install Facebook Video Downloader"
-		print "44. Install Tools Th3inspector"
-		print "45. Install IP-Tracer"
-		print "46. "
+		print "36. Install Mail-Generator"
+		print "37. Install LiteOTP"
+		print "38. Install XAttacker"
+		print "39. Install Facebook Video Downloader"
+		print "40. Install Tools Th3inspector"
+		print "41. Install IP-Tracer"
+		print "42. "
 		print "100. About"
 		print "0. KELUAR"
 
@@ -641,37 +637,6 @@ def torhammer():
 	print "cara menggunakannya cari aja digoogle gan hehe"
 	print
 
-def botfb_bj():
-	system('git clone https://github.com/Senitopeng/BotFbBangDjon')
-	system('mv BotFbBangDjon $HOME')
-	print "\033[92mSudah di install gan silahkan lihat di cd $HOME"
-	print "cara menggunakannya cari aja digoogle gan hehe"
-	print
-
-def fbbrute():
-	system('pkg install python')
-	system('git clone https://github.com/Senitopeng/fbbrute')
-	system('mv fbbrute $HOME')
-	print "\033[92mSudah di install gan silahkan lihat di cd $HOME"
-	print "cara menggunakannya cari aja digoogle gan hehe"
-	print
- 
-def bom_komen():
-	system('pkg install python')
-	system('git clone https://github.com/Senitopeng/BoomKomen')
-	system('mv BoomKomen $HOME')
-	print "\033[92mSudah di install gan silahkan lihat di cd $HOME"
-	print "cara menggunakannya cari aja digoogle gan hehe"
-	print
-
-def botkomena():
-	system('pip2 install requests')
-	system('git clone https://github.com/Senitopeng/Botkomena')
-	system('mv Botkomena $HOME')
-	print "\033[92mSudah di install gan silahkan lihat di cd $HOME"
-	print "cara menggunakannya cari aja digoogle gan hehe"
-	print
-
 def mail_gen():
 	system('pkg install php')
 	system('git clone https://github.com/revan-ar/mail-gen')
@@ -826,26 +791,18 @@ while (pilihan != 't'):
 	elif pilih == 35:
 			torhammer()
 	elif pilih == 36:
-			botfb_bj()
-	elif pilih == 37:
-			fbbrute()
-	elif pilih == 38:
-			bom_komen()
-	elif pilih == 39:
-			botkomena()
-	elif pilih == 40:
 			mail_gen()
-	elif pilih == 41:
+	elif pilih == 37:
 			liteotp()
-	elif pilih == 42:
+	elif pilih == 38:
 			xattack()
-	elif pilih == 43:
+	elif pilih == 39
 			fbvideo_down()
-	elif pilih == 44:
+	elif pilih == 40:
 			the_inspect()
-	elif pilih == 45:
+	elif pilih == 41:
 			ip_tracer()
-	elif pilih == 46:
+	elif pilih == 42:
 			tes()
 	elif pilih == 100:
 			tentang()
