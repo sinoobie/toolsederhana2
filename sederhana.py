@@ -57,6 +57,8 @@ def menu():
 		print "43. Install Termux Alpine"
 		print "44. Install Smsid"
 		print "45. Install Instagram Downloader"
+		print "46. Install Spam Call"
+		print "47. "
 		print "99. Update "
 		print "100. About"
 		print "0. KELUAR"
@@ -727,6 +729,15 @@ def downig():
 	print "cara menggunakannya cari aja digoogle gan hehe"
 	print
 
+def spamtlp():
+	system('apt install wget')
+	system('apt install jq')
+	system('git clone https://github.com/Hax28dh8Sec/Tlpnspammer')
+	system('mv Tlpnspammer $HOME')
+	print "\033[92mSudah di install gan silahkan lihat di cd $HOME"
+	print "cara menggunakannya cari aja digoogle gan hehe"
+	print
+
 def update():
 	system('pkg install curl')
 	system('curl -O https://github.com/KANG-NEWBIE/toolsederhana2/blob/master/sederhana.py')
@@ -855,6 +866,8 @@ while (pilihan != 't'):
 	elif pilih == 45:
 			downig()
 	elif pilih == 46:
+			spamtlp()
+	elif pilih == 47:
 			tes()
 	elif pilih == 99:
 			update()
