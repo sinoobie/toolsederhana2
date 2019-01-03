@@ -728,7 +728,10 @@ def downig():
 	print
 
 def update():
-	system('git clone https://github.com/KANG-NEWBIE/toolsederhana2')
+	system('pkg install curl')
+	system('curl -O https://github.com/KANG-NEWBIE/toolsederhana2/blob/master/sederhana.py')
+	system('python2 sederhana.py')
+
 def tes():
 	print
 	print("\nUdah ya gan segitu dulu soalnya ane udah bingung apa lagi yang mau ditambahin hehe.\nlagian kalo kebanyakan pun nanti jadi bingung juga mau install yang mana eakan? hehehe, \nkalo agan mau ngembagin lagi ya silahkan saja gan aku ikhlas kok:')\nSampai Jumpa di project berikutnya gan:*"*10)
