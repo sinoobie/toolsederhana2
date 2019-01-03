@@ -2,7 +2,7 @@
 ########-NGAPAI GAN MAU RECODE YA?-################################
 #######-YAUDAH SILAHKAN TAPI INGAT KATA PEPATAH "BANGSAD KAO"-####
 
-import os, httplib, json, sys, time
+import time, sys, threading, os, subprocess, urllib, httplib, json
 from os import system
 
 def menu():
@@ -739,11 +739,11 @@ def spamtlp():
 	print
 
 def update():
-		system('cd && rm -rf toolsederhana2')
-        subprocess.call(['cd && git clone https://github.com/KANG-NEWBIE/toolsederhana2'], shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
-        print(lg + 'Restarting the program..')
-        time.sleep(0.5)
-        os.system('cd ../toolsederhana2 && python sederhana.py')
+	system('cd && rm -rf toolsederhana2')
+	subprocess.call(['cd && git clone https://github.com/KANG-NEWBIE/toolsederhana2'], shell=True, stderr=subprocess.STDOUT)
+	print "Restarting Program.."
+	time.sleep(0.5)
+	system('cd ../toolsederhana2 && python2 sederhana.py')
 
 def tes():
 	print
