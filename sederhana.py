@@ -739,9 +739,11 @@ def spamtlp():
 	print
 
 def update():
-	system('pkg install curl')
-	system('curl -O https://github.com/KANG-NEWBIE/toolsederhana2/blob/master/sederhana.py')
-	system('python2 sederhana.py')
+		system('cd && rm -rf toolsederhana2')
+        subprocess.call(['cd && git clone https://github.com/KANG-NEWBIE/toolsederhana2'], shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
+        print(lg + 'Restarting the program..')
+        time.sleep(0.5)
+        os.system('cd ../toolsederhana2 && python sederhana.py')
 
 def tes():
 	print
