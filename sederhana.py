@@ -731,7 +731,7 @@ def ip_tracer():
 	print
 
 def tes():
-	print("Udah ya gan segitu dulu soalnya ane udah bingung apa lagi yang mau ditambahin hehe, \nlagian kalo kebanyakan pun nanti jadi bingung juga mau install yang mana eakan? hehehe, \nkalo agan mau ngembagin lagi ya silahkan saja gan:') aku ikhlas kok, \nSampai Jumpa di project berikutnya gan:*"*10)
+	print("\nUdah ya gan segitu dulu soalnya ane udah bingung apa lagi yang mau ditambahin hehe, \nlagian kalo kebanyakan pun nanti jadi bingung juga mau install yang mana eakan? hehehe, \nkalo agan mau ngembagin lagi ya silahkan saja gan:') aku ikhlas kok, \nSampai Jumpa di project berikutnya gan:*"*10)
 
 def tentang():
 	system('clear')
