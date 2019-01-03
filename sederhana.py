@@ -706,7 +706,7 @@ def alpine():
 	system('apt -y upgrade && apt -y install curl proot')
 	system('curl -LO https://raw.githubusercontent.com/Hax4us/TermuxAlpine/master/TermuxAlpine.sh')
 	system('bash TermuxAlpine.sh')
-	system('startalpine.')
+	system('startalpine')
 
 def smsid():
 	system('git clone https://github.com/amsitlab/smsid-java')
