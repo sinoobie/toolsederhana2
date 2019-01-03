@@ -55,7 +55,7 @@ def menu():
 		print "41. Install IP-Tracer"
 		print "42. Install KaliNethunter"
 		print "43. Install Termux Alpine"
-		print "44. Install Smsid (sms gratis no pulsa)"
+		print "44. Install Smsid"
 		print "45. "
 		print "100. About"
 		print "0. KELUAR"
