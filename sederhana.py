@@ -57,7 +57,7 @@ def menu():
 		print "43. Install Termux Alpine"
 		print "44. Install Smsid"
 		print "45. Install Instagram Downloader"
-		print "46. "
+		print "99. Update "
 		print "100. About"
 		print "0. KELUAR"
 
