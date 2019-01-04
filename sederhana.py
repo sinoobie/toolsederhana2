@@ -741,7 +741,8 @@ def spamtlp():
 def update():
 	system('cd && rm -rf toolsederhana2')
 	system('cd && git clone https://github.com/KANG-NEWBIE/toolsederhana2')
-	print "Restarting Program.."
+	system('clear')
+	print "Restarting Program..."
 	time.sleep(2.5)
 	system('cd ../toolsederhana2 && python2 sederhana.py')
 
