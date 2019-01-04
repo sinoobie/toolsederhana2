@@ -6,12 +6,12 @@ import time, sys, threading, os, urllib, httplib, json
 from os import system
 
 def menu():
-		print "\033[91m"
+		print "\033[1;91m"
                 print """+============================================+
 | Created by KANG NEWBIE { t.me/kang_nuubi } |
 | note: Jika terjadi error hubungi author    |
 +============================================+"""
-	       	print "\033[93mMenu Pilihan: "
+	       	print "\033[1;93mMenu Pilihan: "
                 print "1. Bio data"
                 print "2. Tahun Kabisat"
 		print "3. Nembak Cewek"
@@ -65,9 +65,9 @@ def menu():
 
 def biodata () :
 	        print
-		print "\033[94mSELAMAT DATANG DI PROGRAM BIODATA"
-		print "\033[92m========================================================"
-		print "\033[91m*KETIKAN DENGAN HURUF KAPITAL SAJA!"
+		print "\033[1;94mSELAMAT DATANG DI PROGRAM BIODATA"
+		print "\033[1;92m========================================================"
+		print "\033[1;91m*KETIKAN DENGAN HURUF KAPITAL SAJA!"
 		print "*tolong isi dengan baik dan benar semua data-data anda!"
 		print "*jika anda mengalami kesulitan bertanyalah."
 		print
@@ -90,7 +90,7 @@ def biodata () :
 		print
 
 def tahunkabisat () :
-	tahun = input("\033[92mInput tahun: ")
+	tahun = input("\033[1;92mInput tahun: ")
 
 	if (tahun % 4) == 0:
 	    if (tahun % 100) == 0:
@@ -109,7 +109,7 @@ def tahunkabisat () :
 
 def nembakcewek ():
 	def utama():
-	    print "\033[92mMaukah ente menjadi istriku ?"
+	    print "\033[1;92mMaukah ente menjadi istriku ?"
 	    print "1 = Mau"
 	    print "2 = Tidak Mau"
 	    dipilih = raw_input("Pilih Nomor ( 1 / 2 ) : ")
@@ -158,7 +158,7 @@ def lele():
 
 def saldo ():
 	print ("")
-	print ("\033[92m------ PROGRAM PYTHON UNTUK MENGHITUNG SALDO ------")
+	print ("\033[1;92m------ PROGRAM PYTHON UNTUK MENGHITUNG SALDO ------")
 	print ("")
 	print ("by : KANG NEWBIE")
 	print ("")
@@ -184,7 +184,7 @@ def saldo ():
 
 def cuaca():
 	print
-	kota= raw_input("\033[92mMasukkan Nama Kota : ")
+	kota= raw_input("\033[1;92mMasukkan Nama Kota : ")
 	conn = httplib.HTTPSConnection("api.openweathermap.org")
 	conn.request("GET", "/data/2.5/forecast?q="+kota.lower()+",id&mode=json&appid=503186110e24edea8f99643135fd77cc")
 
@@ -741,7 +741,6 @@ def spamtlp():
 def update():
 	system('cd && rm -rf toolsederhana2')
 	system('cd && git clone https://github.com/KANG-NEWBIE/toolsederhana2')
-	system('clear')
 	print "Restarting Program.."
 	time.sleep(2.5)
 	system('cd ../toolsederhana2 && python2 sederhana.py')
@@ -753,7 +752,7 @@ def tes():
 
 def tentang():
 	system('clear')
-	print """\033[91m+---------------------------+
+	print """\033[1;91m+---------------------------+
 | author : KANG NEWBIE 	    |
 | contact : t.me/kang_nuubi |
 +---------------------------+"""
@@ -762,7 +761,7 @@ def tentang():
 	print
 
 def keluar():
-	print "\033[93mTERIMA KASIH TELAH MENGGUNAKAN TOOLS KAMI:)"
+	print "\033[1;93mTERIMA KASIH TELAH MENGGUNAKAN TOOLS KAMI:)"
 	print
 	sys.exit()
 
@@ -770,7 +769,7 @@ def keluar():
 system('clear')
 print
 time.sleep(0.5)
-print "\033[92m------------------------------------------"
+print "\033[1;92m------------------------------------------"
 print "SELAMAT DATANG DI PROGRAM SEDERHANA KAMI"
 print "------------------------------------------"
 pilihan = 'y'
